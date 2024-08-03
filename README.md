@@ -10,7 +10,6 @@ The ProSlides theme incorporates Tailwind CSS to enhance the design and function
 
 - **Tailwind CSS Integration**: Tailwind CSS is used for styling, providing a modern and responsive design.
 - **Static and In-Progress**: The theme is currently in a static state with plans to become fully dynamic in future updates.
-- **Docker Setup**: Use Docker to set up a local development environment.
 - **Deployment**: The application is already deployed and available online.
 
 ## Getting Started
@@ -44,6 +43,10 @@ During development, you may need to make changes to the CSS files. To reflect th
 The ProSlides theme is already deployed and can be accessed at the following link:
 
 - ProSlides Live Site: <deployment-url>
+
+## Screenshot
+
+![Screenshot of ProSlides Theme](screenshot.png)
 
 ### Contributing
 
