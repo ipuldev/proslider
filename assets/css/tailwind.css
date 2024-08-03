@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-odor;
+}
+
+.bg-zoom:hover .bg-image {
+    transform: scale(1.1);
+}
+
+/* Custom CSS for Parallax Backgrounds */
+.parallax-bg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.parallax-bg-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-bg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.flipped {
+    transform: translateX(0%) rotateY(-180deg);
+}
+
+/* custom.css */
+.btn-animate:hover img {
+    animation: moveLeftRight 2s ease-in-out infinite; /* Adjust duration and easing as needed */
+}
+  
