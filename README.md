@@ -42,7 +42,7 @@ During development, you may need to make changes to the CSS files. To reflect th
 
 The ProSlides theme is already deployed and can be accessed at the following link:
 
-- ProSlides Live Site: <deployment-url>
+- ProSlides Live Site: [proslider.kesug.com](http://proslider.kesug.com/)
 
 ## Screenshot
 
