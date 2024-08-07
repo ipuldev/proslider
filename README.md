@@ -11,6 +11,7 @@ The ProSlides theme incorporates Tailwind CSS to enhance the design and function
 - **Tailwind CSS Integration**: Tailwind CSS is used for styling, providing a modern and responsive design.
 - **Static and In-Progress**: The theme is currently in a static state with plans to become fully dynamic in future updates.
 - **Deployment**: The application is already deployed and available online.
+- **Contact Form with SMTP**: The theme includes a contact form with SMTP setup instructions.
 
 ## Getting Started
 
@@ -43,6 +44,20 @@ During development, you may need to make changes to the CSS files. To reflect th
 The ProSlides theme is already deployed and can be accessed at the following link:
 
 - ProSlides Live Site: [proslider.kesug.com](http://proslider.kesug.com/)
+
+## Contact Form Setup
+
+The theme includes a contact form that can be configured to send emails via SMTP. Follow these steps to set up SMTP:
+
+1. **Install SMTP Plugin**: Install and activate the [WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/) plugin from the WordPress plugin repository.
+
+2. **Configure SMTP Settings**: Access the WP Mail SMTP settings in the WordPress admin panel and enter your SMTP server details. Save the settings and use the plugin’s test email feature to ensure everything is working correctly.
+
+3. **Add the Contact Form**: The contact form is integrated into the theme and will automatically use the SMTP settings for email functionality.
+
+### Managing Form Submissions
+
+To manage contact form submissions, you can view and handle them directly from the WordPress admin panel. Ensure that your form submission handling code is correctly set up to capture and process the form data.
 
 ## Screenshot
 

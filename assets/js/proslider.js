@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     
     window.addEventListener('scroll', function () {
         let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-            console.log(currentScroll);
         if (currentScroll > lastScrollTop) {
             // Scrolling down
             headerlogo.style.transform = 'translateY(-100%)';
